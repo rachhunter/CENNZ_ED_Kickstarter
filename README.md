@@ -33,7 +33,8 @@ Note: The contract needs to specifically emit details so it can be called
 
 **In preparation to deploy: in ./src directory:**
 
-```cargo generate \
+```
+cargo generate \
     --name KickStarter \
     --git https://github.com/cennznet/contract-template
 

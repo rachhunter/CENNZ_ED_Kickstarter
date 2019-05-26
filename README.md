@@ -1,10 +1,10 @@
 # CENNZ_ED_Kickstarter
 
-##CENNZ_ED Event Kickstarter Project
+## CENNZ_ED Event Kickstarter Project
 
-###OVERVIEW OF CENNZ KICKSTARTER PROJECT:
+### OVERVIEW OF CENNZ KICKSTARTER PROJECT:
 
-#####SINGLE CONTROLLING CONTRACT
+##### SINGLE CONTROLLING CONTRACT
 1. CREATOR_ACCOUNT_ADDRESS (Does not change)
 2. Create unique PROJECT_ID (new ID incremented +1 for each new project)
 3. PERCENTAGE of transfer to return to CREATOR_ACCOUNT_ADDRESS on payout to PROJECT_ACCOUNT_ADDRESS (profits)
@@ -12,7 +12,7 @@
 
 Note: The contract needs to specifically emit details so it can be called
 
-#####PROJECT
+##### PROJECT
 1. PROJECT_ID
 2. Project owner PROJECT_ACCOUNT_ADDRESS
 3. MIN_CRYPTO contribution
@@ -21,11 +21,11 @@ Note: The contract needs to specifically emit details so it can be called
 6. START_TIME
 7. END_TIME if reached, wait DELAY, then if PAYOUT_CALL is YES, transfer TOTAL_CRYPTO less PERCENTAGE to PROJECT_ACCOUNT_ADDRESS, if PAYOUT_CALL is NO, transfer MY_CRYPTO to FUNDER_ID (crypto is returned to the participant)
 
-#####PARTICIPANT
+##### PARTICIPANT
 1. PROJECT_ID for project
 2. FUNDER_ID Participant identified by wallet
 3. MY_CRYPTO participant contribution amount
 
-#####Need a front end that:
+##### Need a front end that:
 1. Initiates a project
 2. That makes calls to the contract and reports contract details

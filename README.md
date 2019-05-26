@@ -31,7 +31,7 @@ Note: The contract needs to specifically emit details so it can be called
 2. That makes calls to the contract and reports contract details
 
 
-In preparation to deploy: in ./src directory:
+** In preparation to deploy: in ./src directory: **
 
 ```cargo generate \
     --name KickStarter \

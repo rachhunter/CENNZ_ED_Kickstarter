@@ -29,3 +29,14 @@ Note: The contract needs to specifically emit details so it can be called
 ##### Need a front end that:
 1. Initiates a project
 2. That makes calls to the contract and reports contract details
+
+
+In preparation to deploy: in ./src directory:
+
+```cargo generate \
+    --name KickStarter \
+    --git https://github.com/cennznet/contract-template
+
+# Use rust nightly toolchain for contract dev.
+cd KickStarter && rustup override set nightly
+```
